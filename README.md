@@ -29,6 +29,20 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
 BiocManager::install(c("curatedMetagenomicData", "SummarizedExperiment"))
 ```
 
+## Tested environment
+
+The analyses were run on Windows with R 4.5.2 (2025-10-31, UCRT) and Bioconductor 3.22.
+
+| R package | Version |
+| --- | --- |
+| `MASS` | `7.3-65` |
+| `randomForest` | `4.7-1.2` |
+| `doParallel` | `1.0.17` |
+| `foreach` | `1.5.2` |
+| `ggplot2` | `4.0.3` |
+| `curatedMetagenomicData` | `3.18.0` |
+| `SummarizedExperiment` | `1.40.0` |
+
 ## Reproducing the figures
 
 Open a terminal in the repository root, where `R2.R` is located. Run the command corresponding to the analysis you want to reproduce.
