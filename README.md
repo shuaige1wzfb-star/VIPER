@@ -35,8 +35,8 @@ The analyses were run on Windows with R 4.5.2 (2025-10-31, UCRT) and Bioconducto
 
 | R package | Version |
 | --- | --- |
-| `MASS` | `7.3-65` |
-| `randomForest` | `4.7-1.2` |
+| `MASS` | `7.3.65` |
+| `randomForest` | `4.7.1.2` |
 | `doParallel` | `1.0.17` |
 | `foreach` | `1.5.2` |
 | `ggplot2` | `4.0.3` |
