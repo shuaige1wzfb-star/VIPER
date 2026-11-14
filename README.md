@@ -31,7 +31,7 @@ BiocManager::install(c("curatedMetagenomicData", "SummarizedExperiment"))
 
 ## Tested environment
 
-The analyses were run on Windows with R 4.5.2 (2025-10-31, UCRT) and Bioconductor 3.22.
+The analyses were run on Windows using R 4.5.2 and Bioconductor 3.22.
 
 | R package | Version |
 | --- | --- |
